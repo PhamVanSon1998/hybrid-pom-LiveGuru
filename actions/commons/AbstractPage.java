@@ -12,19 +12,18 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AbstractPage {
 	WebDriver driver;
-	WebDriverWait explicitWait;
-	WebElement element;
-	List<WebElement> elements;
-	Select select;
-	Actions actions;
-	JavascriptExecutor jsExecutor;
+	private WebDriverWait explicitWait;
+	private WebElement element;
+	private List<WebElement> elements;
+	private Select select;
+	private Actions actions;
+	private JavascriptExecutor jsExecutor;
 	
 
 	public void openPageURL(WebDriver driver, String url) {
@@ -346,9 +345,9 @@ public class AbstractPage {
 		jsExecutor = (JavascriptExecutor) driver;
 		element = getElement(driver, locator);
 		String originalStyle = element.getAttribute("style");
-		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, "border: 2px solid red; border-style: dashed;");
-		sleepInSecond(2);
-		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, originalStyle);
+//		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, "border: 2px solid red; border-style: dashed;");
+//		sleepInSecond(2);
+//		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, originalStyle);
 	}
 
 	public void clickToElementByJS(WebDriver driver, String locator) {

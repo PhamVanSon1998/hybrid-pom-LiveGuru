@@ -1,0 +1,224 @@
+[INFO ] [2022-10-05 22:17:46,566] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 22:17:48,852] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 22:17:52,303] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 22:17:54,766] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 22:17:57,086] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 22:17:59,373] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy666359@gmail.com
+[INFO ] [2022-10-05 22:18:01,677] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 22:18:03,979] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:18:06,249] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:18:08,468] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 22:18:12,627] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 22:18:14,842]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 22:18:14,847] OS name = windows 10
+[INFO ] [2022-10-05 22:18:14,847] Driver instance name = chromedriver: chrome on windows (a450aa13e18fe2f43f55381a09133444)
+[INFO ] [2022-10-05 22:19:01,058] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 22:19:03,343] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 22:19:06,831] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 22:19:09,336] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 22:19:11,684] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 22:19:14,001] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy967091@gmail.com
+[INFO ] [2022-10-05 22:19:16,294] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 22:19:18,567] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:19:20,835] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:19:23,049] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 22:19:26,991] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 22:19:29,478]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 22:19:29,482] OS name = windows 10
+[INFO ] [2022-10-05 22:19:29,482] Driver instance name = chromedriver: chrome on windows (a7e61c669d7ee573c7df0f3ceed1e64c)
+[INFO ] [2022-10-05 22:54:28,336] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 22:54:30,593] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 22:54:34,054] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 22:54:36,533] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 22:54:38,894] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 22:54:41,183] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy47199@gmail.com
+[INFO ] [2022-10-05 22:54:43,461] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 22:54:45,712] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:54:47,989] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:54:50,221] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 22:54:53,968] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 22:54:56,368]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 22:54:56,372] OS name = windows 10
+[INFO ] [2022-10-05 22:54:56,372] Driver instance name = chromedriver: chrome on windows (1d494c31e8ee251fef60279b9f371c9d)
+[INFO ] [2022-10-05 22:54:56,802] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 22:54:56,819] OS name = windows 10
+[INFO ] [2022-10-05 22:54:56,820] Driver instance name = chromedriver: chrome on windows (null)
+[INFO ] [2022-10-05 22:54:56,820] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'DESKTOP-370B1C0', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2022-10-05 22:56:23,033] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 22:56:25,295] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 22:56:28,722] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 22:56:31,152] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 22:56:33,504] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 22:56:35,816] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy28979@gmail.com
+[INFO ] [2022-10-05 22:56:38,115] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 22:56:40,391] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:56:42,650] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:56:44,869] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 22:56:48,723] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 22:56:51,143]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 22:56:51,146] OS name = windows 10
+[INFO ] [2022-10-05 22:56:51,147] Driver instance name = chromedriver: chrome on windows (02e439f373aa0bab907dcfd9d81f21c3)
+[INFO ] [2022-10-05 22:56:57,313] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 22:57:01,009] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 22:58:03,473] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 22:58:05,912] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 22:58:09,376] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 22:58:11,955] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 22:58:14,240] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 22:58:16,567] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy155357@gmail.com
+[INFO ] [2022-10-05 22:58:18,909] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 22:58:21,183] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:58:23,493] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 22:58:25,736] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 22:58:29,614] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 22:58:32,096]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 22:58:32,102] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 22:58:35,291] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 22:59:05,337] OS name = windows 10
+[INFO ] [2022-10-05 22:59:05,337] Driver instance name = chromedriver: chrome on windows (07206e57ecb0c2cb98a8bb98b84d9f0f)
+[INFO ] [2022-10-05 23:00:39,067] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:00:41,295] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:00:44,662] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:00:47,114] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:00:49,445] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:00:51,779] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy676936@gmail.com
+[INFO ] [2022-10-05 23:00:54,093] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:00:56,356] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:00:58,630] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:01:00,850] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:01:04,743] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:01:07,163]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:01:07,169] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:01:10,424] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:01:40,516] OS name = windows 10
+[INFO ] [2022-10-05 23:01:40,516] Driver instance name = chromedriver: chrome on windows (88e8766f271cfd184b738695dbfc49a6)
+[INFO ] [2022-10-05 23:02:43,147] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:02:45,428] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:02:48,798] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:02:51,270] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:02:53,604] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:02:55,922] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy48139@gmail.com
+[INFO ] [2022-10-05 23:02:58,261] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:03:00,533] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:03:02,788] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:03:05,089] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:03:09,026] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:03:11,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:03:11,221] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:03:14,830] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:03:21,489] Verify Infomation Register-Step 01: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-05 23:03:21,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:03:21,562] Verify Infomation Register-Step 01: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-05 23:03:21,847]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:03:21,848] Verify Infomation Register-Step 01: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-05 23:03:21,954]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:03:21,954] Verify Infomation Register-Step 01: Verify Email textbox displayed with value:Phanthuy48139@gmail.com
+[INFO ] [2022-10-05 23:03:22,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:03:22,017] OS name = windows 10
+[INFO ] [2022-10-05 23:03:22,017] Driver instance name = chromedriver: chrome on windows (652cddce58e9738a9767eb59554bad93)
+[INFO ] [2022-10-05 23:04:57,611] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:04:57,815] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:04:58,923] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:04:59,374] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:04:59,603] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:04:59,853] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy368043@gmail.com
+[INFO ] [2022-10-05 23:05:00,114] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:05:00,345] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:05:00,562] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:05:00,716] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:05:02,927] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:05:03,234]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:05:03,242] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:05:04,065] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:05:08,797] Verify Infomation Register-Step 01: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-05 23:05:08,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:05:08,920] Verify Infomation Register-Step 01: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-05 23:05:09,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:05:09,214] Verify Infomation Register-Step 01: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-05 23:05:09,291]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:05:09,291] Verify Infomation Register-Step 01: Verify Email textbox displayed with value:Phanthuy368043@gmail.com
+[INFO ] [2022-10-05 23:05:09,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:05:09,401] OS name = windows 10
+[INFO ] [2022-10-05 23:05:09,402] Driver instance name = chromedriver: chrome on windows (da7de0e8e4d0ec87c99b2ebf1c229c39)
+[INFO ] [2022-10-05 23:08:03,743] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:08:03,940] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:08:05,068] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:08:05,470] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:08:05,677] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:08:05,953] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy113717@gmail.com
+[INFO ] [2022-10-05 23:08:06,201] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:08:06,401] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:08:06,610] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:08:06,786] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:08:08,708] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:08:09,069]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:08:09,076] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:08:09,975] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:08:40,047] OS name = windows 10
+[INFO ] [2022-10-05 23:08:40,048] Driver instance name = chromedriver: chrome on windows (536e905e1e8aa7799b88300e61c39a5e)
+[INFO ] [2022-10-05 23:09:36,913] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:09:37,108] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:09:38,156] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:09:38,533] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:09:38,765] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:09:38,965] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy109196@gmail.com
+[INFO ] [2022-10-05 23:09:39,206] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:09:39,410] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:09:39,631] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:09:39,787] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:09:41,782] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:09:42,108]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:09:42,117] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:09:43,025] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:10:13,141] OS name = windows 10
+[INFO ] [2022-10-05 23:10:13,143] Driver instance name = chromedriver: chrome on windows (5ee872ddf00ea219cec473275a2679f2)
+[INFO ] [2022-10-05 23:12:56,599] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:12:56,852] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:12:57,945] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:12:58,335] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:12:58,546] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:12:58,768] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy560002@gmail.com
+[INFO ] [2022-10-05 23:12:59,001] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:12:59,198] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:12:59,428] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:12:59,631] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:13:01,505] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:13:01,833]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:13:01,841] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:13:02,682] Verify Infomation Register-Step 01: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:13:03,763] Verify Infomation Register-Step 01: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-05 23:13:03,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:13:03,832] Verify Infomation Register-Step 01: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-05 23:13:03,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:13:03,912] Verify Infomation Register-Step 01: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-05 23:13:04,146]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:13:04,146] Verify Infomation Register-Step 01: Verify Email textbox displayed with value:Phanthuy560002@gmail.com
+[INFO ] [2022-10-05 23:13:04,240]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:13:04,241] OS name = windows 10
+[INFO ] [2022-10-05 23:13:04,242] Driver instance name = chromedriver: chrome on windows (4375618e1a1e3b0784ef2db979fff577)
+[INFO ] [2022-10-05 23:20:18,659] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-05 23:20:18,826] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-05 23:20:19,773] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-05 23:20:20,166] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-05 23:20:20,367] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-05 23:20:20,609] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy693383@gmail.com
+[INFO ] [2022-10-05 23:20:20,852] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-05 23:20:21,064] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:20:21,279] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-05 23:20:21,451] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-05 23:20:23,393] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-05 23:20:23,714]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:20:23,720] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-05 23:20:24,561] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-05 23:20:25,651] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-05 23:20:25,723]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:20:25,724] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-05 23:20:26,000]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:20:26,000] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-05 23:20:26,078]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:20:26,078] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy693383@gmail.com
+[INFO ] [2022-10-05 23:20:26,138]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-05 23:20:26,139] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page

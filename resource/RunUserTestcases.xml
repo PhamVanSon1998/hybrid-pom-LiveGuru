@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Live guru">
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+
+
+	<test name="Run on CHROME UI">
+		<parameter name="browser" value="chrome_ui" />
+		<parameter name="url" value="http://live.techpanda.org/" />
+		<classes>
+			<class name="com.liveGuru.user.Front_End" />
+		</classes>
+	</test>
+
+	<!--<test name="Run on CHROME HEADLESS">
+		<parameter name="browser" value="chrome_headless" />
+		<classes>
+			<class name="com.nopcomerce.users.Level_04_Register_Login_Multiple_Browser" />
+		</classes>
+	</test>
+
+	<test name="Run on FIREFOX HEADLESS">
+		<parameter name="browser" value="firefox_headless" />
+		<classes>
+			<class name="com.nopcomerce.users.Level_04_Register_Login_Multiple_Browser" />
+		</classes>
+	</test>
+
+	<test name="Run on EDGE CHROMIUM">
+		<parameter name="browser" value="edge_chromium" />
+		<classes>
+			<class name="com.nopcomerce.users.Level_04_Register_Login_Multiple_Browser" />
+		</classes>
+	</test>
+	
+	 <test name="Run on IE UI">
+		<parameter name="browser" value="ie_ui" />
+		<classes>
+			<class name="com.nopcomerce.users.Level_04_Register_Login_Multiple_Browser" />
+		</classes>
+	</test>-->
+
+
+</suite> 
