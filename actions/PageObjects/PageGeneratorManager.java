@@ -19,4 +19,12 @@ public class PageGeneratorManager {
 	public static MyAccountPage  getLMyAccountPage(WebDriver driver) {
 		return new MyAccountPage(driver);
 	}
+	
+	public static MyDashboardPage  getLMyDashboardPage(WebDriver driver) {
+		return new MyDashboardPage(driver);
+	}
+	
+	public static MobilePage  getLMobilePage(WebDriver driver) {
+		return new MobilePage(driver);
+	}
 }

@@ -83,4 +83,15 @@ public class HomePage extends AbstractPage {
 		clickToElement(driver, HomePageUI.LOGOUT_LINK);
 	}
 
+	public void clickToLoginLink() {
+		waitToElementClickable(driver, HomePageUI.LOGIN_LINK);
+		clickToElement(driver, HomePageUI.LOGIN_LINK);
+	}
+
+	public void clickToMobileLink() {
+		waitToElementClickable(driver, HomePageUI.MOBILE_LINK);
+		clickToElement(driver, HomePageUI.MOBILE_LINK);
+		
+	}
+
 }

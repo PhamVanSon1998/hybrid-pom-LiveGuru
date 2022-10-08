@@ -15,6 +15,10 @@ public class HomePageUI {
 	
 	public static final String MYACOUNT_LINK = "//div[@class='footer-container']//a[@title='My Account']";
 	public static final String LOGOUT_LINK = "//a[@title='Log Out']";
+	public static final String LOGIN_LINK = "//a[@title='Log In']";
+	
+	public static final String MOBILE_LINK = "//a[text()='Mobile']";
+	
 	
 
 }
