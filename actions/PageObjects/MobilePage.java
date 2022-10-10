@@ -28,9 +28,9 @@ public class MobilePage extends AbstractPage {
 		return getElementText(driver, MobilePageUI.MOBILE_NAME_COST_DETAIL, mobileNameCostDetail);
 	}
 
-	public void clickAddToCartMobileName(String addToCartMobileName) {
-		waitToElementClickable(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_BUTTON, addToCartMobileName);
-		clickToElement(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_BUTTON, addToCartMobileName);
+	public void clickAddToCartMobileName() {
+		waitToElementClickable(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_BUTTON);
+		clickToElement(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_BUTTON);
 	}
 
 	public String getTextAddToCartMobileNameSuccess(String addToCartMobileNameSuccess) {
@@ -61,7 +61,7 @@ public class MobilePage extends AbstractPage {
 	public void clickToUpdateButton() {
 		waitToElementClickable(driver, MobilePageUI.UPDATE_BUTTON);
 		clickToElement(driver, MobilePageUI.UPDATE_BUTTON);
-		
+
 	}
 
 	public String getMessageUpdateText() {
@@ -79,5 +79,41 @@ public class MobilePage extends AbstractPage {
 		return isElementDisplayed(driver, MobilePageUI.SHOPPING_CART_EMPY_TEXT);
 	}
 
+	public void clickAddToCartSonyXperia() {
+		waitToElementClickable(driver, MobilePageUI.ADD_TO_COMPARE_SONY_XPERIA);
+		clickToElement(driver, MobilePageUI.ADD_TO_COMPARE_SONY_XPERIA);
+	}
+
+	public void clickAddToCartIphone() {
+		waitToElementClickable(driver, MobilePageUI.ADD_TO_COMPARE_IPHONE);
+		clickToElement(driver, MobilePageUI.ADD_TO_COMPARE_IPHONE);
+	}
+
+	public String getMessageAddToCompareMobileNameSuccess() {
+		waitToElementVisible(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_MESSAGE_SUCCESS);
+		return getElementText(driver, MobilePageUI.ADD_TO_CART_MOBILE_NAME_MESSAGE_SUCCESS);
+	}
+
+	public void clickCompareButton() {
+		waitToElementClickable(driver, MobilePageUI.COMPARE_BUTTON);
+		clickToElement(driver, MobilePageUI.COMPARE_BUTTON);
+	}
+
+	public boolean verifyPopupDisplayed(String parentId) {
+		swithToWindownHandleByID(driver, parentId);
+		return isElementDisplayed(driver, MobilePageUI.COMPARE_PRODUCT);
+	}
+
+	public boolean isMobileNameAddToCompareDisplay(String MobileName) {
+		return isElementDisplayed(driver, MobilePageUI.MOBILE_NAME_IN_COMPARE_PRODUCT, MobileName);
+	}
+
+	public boolean verifyPopupUnDisplayed() {
+		swithToDefaultContent(driver);
+		return isElementUndisplayed(driver, MobilePageUI.COMPARE_PRODUCT);
+	}
+
 	
+	
+
 }

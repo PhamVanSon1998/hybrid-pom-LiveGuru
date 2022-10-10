@@ -8,7 +8,6 @@
 
 	</listeners>
 
-
 	<test name="Run on CHROME UI">
 		<parameter name="browser" value="chrome_ui" />
 		<parameter name="url" value="http://live.techpanda.org/" />
@@ -17,6 +16,14 @@
 		</classes>
 	</test>
 
+	<!-- <test name="Run on FIREFOX UI">
+		<parameter name="browser" value="FIREFOX_UI" />
+		<parameter name="url" value="http://live.techpanda.org/" />
+		<classes>
+			<class name="com.liveGuru.user.Front_End" />
+		</classes>
+	</test>
+	-->
 	<!--<test name="Run on CHROME HEADLESS">
 		<parameter name="browser" value="chrome_headless" />
 		<classes>

@@ -42,8 +42,8 @@ public class AbstractTest {
 		if (browser == Browser.FIREFOX_UI) {
 			WebDriverManager.firefoxdriver().setup();
 			// Disable log
-			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, projectFolder + File.separator + "browserLog" + File.separator + "FirefoxLog.log");
+//			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+//			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, projectFolder + File.separator + "browserLog" + File.separator + "FirefoxLog.log");
 
 			// Add Extension
 			FirefoxProfile profile = new FirefoxProfile();

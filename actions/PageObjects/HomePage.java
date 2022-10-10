@@ -94,4 +94,9 @@ public class HomePage extends AbstractPage {
 		
 	}
 
+	public void clickToTVLink() {
+		waitToElementClickable(driver, HomePageUI.TV_LINK);
+		clickToElement(driver, HomePageUI.TV_LINK);
+	}
+
 }

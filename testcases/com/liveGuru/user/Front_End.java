@@ -15,6 +15,7 @@ import PageObjects.MyAccountPage;
 import PageObjects.MyDashboardPage;
 import PageObjects.PageGeneratorManager;
 import PageObjects.RegisterPage;
+import PageObjects.TVPage;
 import commons.AbstractTest;
 
 public class Front_End extends AbstractTest {
@@ -25,6 +26,7 @@ public class Front_End extends AbstractTest {
 	MyAccountPage myAccountPage;
 	MyDashboardPage myDashboardPage;
 	MobilePage mobilePage;
+	TVPage tvPage;
 	String firstName, middleName, lastName, email, password;
 	String mobileName,mobileNameCost;
 
@@ -155,7 +157,7 @@ public class Front_End extends AbstractTest {
 		mobilePage = PageGeneratorManager.getLMobilePage(driver);
 		
 		log.info("Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia");
-		mobilePage.clickAddToCartMobileName(mobileName);
+		mobilePage.clickAddToCartMobileName();
 		
 		log.info("Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed");
 		verifyEquals(mobilePage.getTextAddToCartMobileNameSuccess("Sony Xperia"), mobileName + " was added to your shopping cart.");
@@ -186,6 +188,79 @@ public class Front_End extends AbstractTest {
 		
 		log.info("Verify not Add more 500 Item-Step 01: Verify cart is empty");
 		verifyTrue(mobilePage.verifyShoppingCartEmpty());
+	}
+	
+	@Test
+	public void TC_07_Verify_Able_Compare_Two_Products() {
+		log.info("Verify able Compare Two Products-Step 01: Click moblie menu");
+		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage.clickToMobileLink();
+		mobilePage = PageGeneratorManager.getLMobilePage(driver);
+		
+		log.info("Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia");
+		mobilePage.clickAddToCartSonyXperia();
+		
+		log.info("Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success");
+		verifyEquals(mobilePage.getMessageAddToCompareMobileNameSuccess(), "The product Sony Xperia has been added to comparison list.");
+		
+		log.info("Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone");
+		mobilePage.clickAddToCartIphone();
+		
+		log.info("Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success");
+		verifyEquals(mobilePage.getMessageAddToCompareMobileNameSuccess(), "The product IPhone has been added to comparison list.");
+		
+		log.info("Verify able Compare Two Products-Step 06: Click Compare button and open popup");
+		String parentId = driver.getWindowHandle();
+		mobilePage.clickCompareButton();
+		
+		log.info("Verify able Compare Two Products-Step 07: Click moblie menu");
+		verifyTrue(mobilePage.verifyPopupDisplayed(parentId));
+		
+		log.info("Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display");
+		verifyTrue(mobilePage.isMobileNameAddToCompareDisplay("Sony Xperia"));
+		verifyTrue(mobilePage.isMobileNameAddToCompareDisplay("IPhone"));
+		
+		log.info("Verify able Compare Two Products-Step 09: Close Popup Windows");
+		mobilePage.closeAllWindowWithoutWindowParent(driver, parentId);
+		
+		log.info("Verify able Compare Two Products-Step 10: Verify popup Window is closed");
+		verifyTrue(mobilePage.verifyPopupUnDisplayed());
+	}
+	
+	@Test
+	public void TC_08_Verify_Share_Wishlist_Other_People() {
+		log.info("Verify Share Wishlist Other People-Step 01: Click To TV link");
+		log.info("Verify able Compare Two Products-Step 01: Click moblie menu");
+		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage.clickToTVLink();
+		tvPage = PageGeneratorManager.getTVPage(driver);
+		
+		log.info("Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist");
+		tvPage.clickToAddTVNameToWishlist();
+		
+		log.info("Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success");
+		verifyTrue(tvPage.getMessageAddToWishlistSuccess().contains("LG LCD has been added to your wishlist. Click"));
+		
+		log.info("Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button");
+		tvPage.clickToShareWishlistButton();
+		
+		log.info("Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist");
+		tvPage.inputToEmailTextArea("PhamSon@gmail.com");
+		
+		log.info("Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist");
+		tvPage.inputToMessageTextArrea("Because I like");
+		
+		log.info("Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page");
+		tvPage.clickShareButtonInShareYourWishlistPage();
+		
+		log.info("Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success");
+		verifyEquals(tvPage.getMessageShareWishlistSuccess(), "Your Wishlist has been shared.");
+		
+		log.info("Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item");
+		verifyTrue(tvPage.isTVAddShareWishlishInMyWishlistDisplayed());
+		
+		log.info("Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item");
+		verifyEquals(tvPage.isQtyTVAddShareWishlishInMyWishlist(),"1");
 	}
 	@AfterClass
 	public void AfterClasss() {

@@ -27,4 +27,8 @@ public class PageGeneratorManager {
 	public static MobilePage  getLMobilePage(WebDriver driver) {
 		return new MobilePage(driver);
 	}
+	
+	public static TVPage  getTVPage(WebDriver driver) {
+		return new TVPage(driver);
+	}
 }

@@ -1,23 +1,28 @@
-[INFO ] [2022-10-05 23:20:18,659] Register Success Step-01: Click on 'Account' menu
-[INFO ] [2022-10-05 23:20:18,826] Register Success Step-02: Click to 'Register' link and navigate to Register Page
-[INFO ] [2022-10-05 23:20:19,773] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
-[INFO ] [2022-10-05 23:20:20,166] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
-[INFO ] [2022-10-05 23:20:20,367] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
-[INFO ] [2022-10-05 23:20:20,609] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy693383@gmail.com
-[INFO ] [2022-10-05 23:20:20,852] Register Success Step-07: Input to 'Password' textbox value: 28111998
-[INFO ] [2022-10-05 23:20:21,064] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
-[INFO ] [2022-10-05 23:20:21,279] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
-[INFO ] [2022-10-05 23:20:21,451] Register Success Step-09: Click ton 'Register' link
-[INFO ] [2022-10-05 23:20:23,393] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
-[INFO ] [2022-10-05 23:20:23,714]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-10-05 23:20:23,720] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
-[INFO ] [2022-10-05 23:20:24,561] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
-[INFO ] [2022-10-05 23:20:25,651] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
-[INFO ] [2022-10-05 23:20:25,723]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-10-05 23:20:25,724] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
-[INFO ] [2022-10-05 23:20:26,000]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-10-05 23:20:26,000] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
-[INFO ] [2022-10-05 23:20:26,078]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-10-05 23:20:26,078] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy693383@gmail.com
-[INFO ] [2022-10-05 23:20:26,138]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-10-05 23:20:26,139] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-10 23:11:34,716] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-10 23:11:36,225] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-10 23:11:39,159] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-10 23:11:40,559] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-10 23:11:41,896] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-10 23:11:43,129] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy587323@gmail.com
+[INFO ] [2022-10-10 23:11:44,327] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-10 23:11:45,505] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-10 23:11:46,745] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-10 23:11:48,117] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-10 23:11:49,403] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-10 23:11:49,475] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-10 23:11:55,349] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-10 23:11:59,595] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-10 23:11:59,609] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-10 23:11:59,622] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-10 23:11:59,638] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-10 23:11:59,644] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-10 23:11:59,664] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-10 23:11:59,664] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-10 23:11:59,693] OS name = windows 10
+[INFO ] [2022-10-10 23:11:59,693] Driver instance name = firefoxdriver: firefox on windows (f09731aa-d1f4-47ce-bc60-a1ceaac11ab5)
+[INFO ] [2022-10-10 23:11:59,705] Tried to run command without establishing a connection
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'DESKTOP-370B1C0', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16832, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f09731aa-d1f4-47ce-bc60-a1ceaac11ab5

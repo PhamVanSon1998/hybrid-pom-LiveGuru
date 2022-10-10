@@ -19,6 +19,8 @@ public class HomePageUI {
 	
 	public static final String MOBILE_LINK = "//a[text()='Mobile']";
 	
+	public static final String TV_LINK = "//a[text()='TV']";
+	
 	
 
 }

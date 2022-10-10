@@ -16,4 +16,13 @@ public class MobilePageUI {
 	public static final String MESSAGE_UPDATE_ERROR = "//li[@class='error-msg']//span";
 	public static final String EMPY_CART_LINK = "//button[@title='Empty Cart']";
 	public static final String SHOPPING_CART_EMPY_TEXT = "//div[@class='page-title']//h1[text()='Shopping Cart is Empty']";
+	
+	public static final String ADD_TO_COMPARE_SONY_XPERIA = "//a[text()='Sony Xperia']/parent::h2[@class='product-name']/following-sibling::div[@class='actions']//a[text()='Add to Compare']";
+	public static final String ADD_TO_COMPARE_IPHONE = "//a[text()='IPhone']/parent::h2[@class='product-name']/following-sibling::div[@class='actions']//a[text()='Add to Compare']";
+	public static final String MESSAGE_ADD_TO_COMPARE_MOBILE_NAME_SUCCESS = "//li[@class='success-msg']//span";
+	public static final String COMPARE_BUTTON = "//button[@title='Compare']";
+	
+	public static final String COMPARE_PRODUCT = "//h1[text()='Compare Products']";
+	public static final String MOBILE_NAME_IN_COMPARE_PRODUCT = "//h2[@class='product-name']//a[@title='%s']";
+	
 }
