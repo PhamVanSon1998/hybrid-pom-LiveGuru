@@ -230,7 +230,6 @@ public class Front_End extends AbstractTest {
 	@Test
 	public void TC_08_Verify_Share_Wishlist_Other_People() {
 		log.info("Verify Share Wishlist Other People-Step 01: Click To TV link");
-		log.info("Verify able Compare Two Products-Step 01: Click moblie menu");
 		homePage = PageGeneratorManager.getHomePage(driver);
 		homePage.clickToTVLink();
 		tvPage = PageGeneratorManager.getTVPage(driver);
@@ -261,6 +260,51 @@ public class Front_End extends AbstractTest {
 		
 		log.info("Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item");
 		verifyEquals(tvPage.isQtyTVAddShareWishlishInMyWishlist(),"1");
+	}
+	
+	@Test
+	public void TC_09_Verify_Add_Your_Review() {
+		log.info("Verify Add Your Rview-Step 01: Click to TV link");
+		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage.clickToTVLink();
+		tvPage = PageGeneratorManager.getTVPage(driver);
+		
+		log.info("Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'");
+		tvPage.clickToSamsungLCDLink();
+		
+		log.info("Verify Add Your Rview-Step 03: Click to 'Add to Review' link");
+		tvPage.clickToAddToReviewLink();
+		
+		log.info("Verify Add Your Rview-Step 04: Click to 'Submit Review' button");
+		tvPage.clickToSubmitReview();
+		
+		log.info("Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field");
+		verifyEquals(tvPage.getMessageInFieldName("review").toLowerCase(), "this is a required field.");
+		
+		log.info("Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field ");
+		verifyEquals(tvPage.getMessageInFieldName("summary").toLowerCase(), "this is a required field.");
+		
+//		log.info("Verify Add Your Rview-Step 07: Verify message 'This is a required field.' displayed in nickname filed");
+//		verifyEquals(tvPage.getMessageInFieldName("nickname").toLowerCase(), "this is a required field.");
+		
+		log.info("Verify Add Your Rview-Step 08: Select quality radio button");
+		tvPage.selectToQuality2Star();
+		
+		log.info("Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea");
+		tvPage.inputToThoughtsTextarea("so bad");
+	
+		log.info("Verify Add Your Rview-Step 10: Input to 'Your Review' textbox");
+		tvPage.inputToSummaryTextbox("not good");
+		
+		log.info("Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox");
+		tvPage.inputToNickNameTextbox("senda");
+		
+		log.info("Verify Add Your Rview-Step 12: Click to 'Submit Review' button");
+		tvPage.clickToSubmitReview();
+		
+		log.info("Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed");
+		verifyEquals(tvPage.getMessageAddToReviewSuccess(), "Your review has been accepted for moderation.");
+		
 	}
 	@AfterClass
 	public void AfterClasss() {

@@ -344,10 +344,10 @@ public class AbstractPage {
 	public void hightlightElement(WebDriver driver, String locator) {
 		jsExecutor = (JavascriptExecutor) driver;
 		element = getElement(driver, locator);
-		String originalStyle = element.getAttribute("style");
-		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, "border: 2px solid red; border-style: dashed;");
-		sleepInSecond(1);
-		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, originalStyle);
+//		String originalStyle = element.getAttribute("style");
+//		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, "border: 2px solid red; border-style: dashed;");
+//		sleepInSecond(1);
+//		jsExecutor.executeScript("arguments[0].setAttribute('style', arguments[1])", element, originalStyle);
 	}
 
 	public void clickToElementByJS(WebDriver driver, String locator) {

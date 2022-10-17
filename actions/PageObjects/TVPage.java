@@ -58,4 +58,49 @@ public class TVPage extends AbstractPage {
 		return getElementAttribute(driver, TVPageUI.QTY_VALUE,"value");
 	}
 
+	public void clickToSamsungLCDLink() {
+		waitToElementClickable(driver, TVPageUI.SAMSUNG_LCD);
+		clickToElement(driver, TVPageUI.SAMSUNG_LCD);
+	}
+
+	public void clickToAddToReviewLink() {
+		waitToElementClickable(driver, TVPageUI.ADD_TO_REVIEW_LINK);
+		clickToElement(driver, TVPageUI.ADD_TO_REVIEW_LINK);
+	}
+
+	public void clickToSubmitReview() {
+		waitToElementClickable(driver, TVPageUI.SUBMIT_BUTTON);
+		clickToElement(driver, TVPageUI.SUBMIT_BUTTON);
+	}
+
+	public String getMessageInFieldName(String valueFiled) {
+		waitToElementVisible(driver, TVPageUI.MESSAGE_EMPTY_WITH_FIELD_NAME, valueFiled);
+		return getElementText(driver, TVPageUI.MESSAGE_EMPTY_WITH_FIELD_NAME, valueFiled);
+	}
+
+	public void selectToQuality2Star() {
+		waitToElementVisible(driver, TVPageUI.QUALITY_RADIO);
+		checkToCheckBox(driver, TVPageUI.QUALITY_RADIO);
+	}
+
+	public void inputToThoughtsTextarea(String valueThought) {
+		waitToElementVisible(driver, TVPageUI.THOUGHTS_TEXTAREA);
+		senkeysToElement(driver, TVPageUI.THOUGHTS_TEXTAREA, valueThought);
+	}
+
+	public void inputToSummaryTextbox(String valueSummary) {
+		waitToElementVisible(driver, TVPageUI.SUMMARY_TEXTBOX);
+		senkeysToElement(driver, TVPageUI.SUMMARY_TEXTBOX, valueSummary);
+	}
+
+	public void inputToNickNameTextbox(String valueNickname) {
+		waitToElementVisible(driver, TVPageUI.NICKNAME_TEXTBOX);
+		senkeysToElement(driver, TVPageUI.NICKNAME_TEXTBOX, valueNickname);
+	}
+
+	public String getMessageAddToReviewSuccess() {
+		waitToElementVisible(driver, TVPageUI.MESSAGE_ADD_TO_REVIEW_SUCCESS);
+		return getElementText(driver, TVPageUI.MESSAGE_ADD_TO_REVIEW_SUCCESS);
+	}
+
 }
