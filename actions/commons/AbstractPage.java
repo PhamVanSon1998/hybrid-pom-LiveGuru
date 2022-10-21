@@ -171,7 +171,7 @@ public class AbstractPage {
 		hightlightElement( driver, Locator);
 		element = getElement(driver, Locator);
 		select = new Select(element);
-		select.deselectByVisibleText(itemValue);
+		select.selectByVisibleText(itemValue);
 	}
 	
 	public String getSelectedTextInDropdow(WebDriver driver, String Locator) {

@@ -306,8 +306,80 @@ public class Front_End extends AbstractTest {
 		verifyEquals(tvPage.getMessageAddToReviewSuccess(), "Your review has been accepted for moderation.");
 		
 	}
+	
+	@Test
+	public void TC_10_Verify_Purchase_Product() {
+		log.info("Verify purchase Product-Step 01: Click Go to Wishlist link" );
+		tvPage.clickToGotoWishlistLink();
+		
+		log.info("Verify purchase Product-Step 02: Click Add to cart link ");
+		tvPage.clickAddToCartLink();
+		
+		log.info("Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''");
+		tvPage.selectCountryDropdown("Uganda");
+		
+		log.info("Verify purchase Product-Step 04: Input state/province textbox");
+		tvPage.inputStateTextbox("New York");
+		
+		log.info("Verify purchase Product-Step 04: Input zip textbox");
+		tvPage.inputToZiptextbox("543432");
+		
+		log.info("Verify purchase Product-Step 05:Click ESTIMATE link ");
+		tvPage.clickToEstimatelink();
+		
+		log.info("Verify purchase Product-Step 05:Click ESTIMATE link ");
+		tvPage.clickToProcessToCheckoutButton();
+		
+		log.info("Verify purchase Product-Step 06:Verify flat displayed ");
+		tvPage.verifyFlatDisplayed("");
+		
+		log.info("Verify purchase Product-Step 07:Input Company name textbox ");
+		tvPage.inputTocompanyTextbox("Samsung");
+		
+		log.info("Verify purchase Product-Step 08:Input Address textbox ");
+		tvPage.inputToAddressTextbox("123 New York USA");
+		
+		log.info("Verify purchase Product-Step 09:Input Street Address 2 textbox ");
+		tvPage.inputToStreetAddressTextbox("12 Hung Vuong");
+		
+		log.info("Verify purchase Product-Step 10:Input City textbox ");
+		tvPage.inputToCityTextbox("Ha Noi");
+		
+		log.info("Verify purchase Product-Step 11:Select state/province dropdown ");
+		tvPage.selectStateDropdowninBilling("New York");
+		
+		log.info("Verify purchase Product-Step 12:Input zip textbox ");
+		tvPage.inputToZiptextboxInBilling("543432");
+		
+		log.info("Verify purchase Product-Step 13:Select country dropdown ");
+		tvPage.selectCountryDropdowninBilling("United States");
+		
+		log.info("Verify purchase Product-Step 14:Input to telephone textbox ");
+		tvPage.inputToTelephonetexbox("012345678");
+		
+		log.info("Verify purchase Product-Step 15:Input fax textbox ");
+		tvPage.inputToFaxTextbox("1234");
+		
+		log.info("Verify purchase Product-Step 16:Click continue button in billing");
+		tvPage.clickToContinueButtonBilling();
+		
+		log.info("Verify purchase Product-Step 17:Click continue button in Shipping Method");
+		tvPage.clickToContinueButtonShippingMethod();
+		
+		log.info("Verify purchase Product-Step 18:Select Check/Money Order radio button ");
+		tvPage.checkToMoneyOrderRadioButton();
+		
+		log.info("Verify purchase Product-Step 19:Click continue button in payment");
+		tvPage.clickToContinueButtonInPayment();
+		
+		log.info("Verify purchase Product-Step 20:Click Place order button ");
+		tvPage.clickToPlaceOrderButton();
+		
+		log.info("Verify purchase Product-Step 21:Verify Order generated ");
+	
+	}
 	@AfterClass
 	public void AfterClasss() {
-		closeBrowserAndDriver();
+//		closeBrowserAndDriver();
 	}
 }
