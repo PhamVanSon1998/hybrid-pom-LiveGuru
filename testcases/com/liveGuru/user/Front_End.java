@@ -1,9 +1,7 @@
 package com.liveGuru.user;
 
-import org.checkerframework.checker.units.qual.mol;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -377,6 +375,42 @@ public class Front_End extends AbstractTest {
 		
 		log.info("Verify purchase Product-Step 21:Verify Order generated ");
 	
+	}
+	
+	@Test
+	public void TC_11_Search_Functionality() {
+		log.info("Search functionality-Step 01: Click advanced search link");
+		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage.clickToAdvancedSearchLink();
+		
+		log.info("Search functionality-Step 02: Input Price from textbox with value 0");
+		homePage.inputToPriceFromTextbox("0");
+		
+		log.info("Search functionality-Step 03: Input Price to textbox with value 150");
+		homePage.InputToPriceToTextbox("150");
+		
+		log.info("Search functionality-Step 04: ClickToSearchButton");
+		homePage.clickToSearchButton();
+		
+		log.info("Search functionality-Step 05: Verify price Product display < 150 and >0");
+		verifyTrue(homePage.getPriceProductName("Sony Xperia")<150);
+		verifyTrue(homePage.getPriceProductName("Sony Xperia")>0);
+		
+		log.info("Search functionality-Step 06: Click advanced search link");
+		homePage.clickToAdvancedSearchLink();
+		
+		log.info("Search functionality-Step 07: Input Price from textbox with value 151");
+		homePage.inputToPriceFromTextbox("151");
+		
+		log.info("Search functionality-Step 08: Input Price to textbox with value 1000");
+		homePage.InputToPriceToTextbox("1000");
+		
+		log.info("Search functionality-Step 09: ClickToSearchButton");
+		homePage.clickToSearchButton();
+		
+		log.info("Search functionality-Step 10: Verify price Product display < 1000 and >151");
+		verifyTrue(homePage.getPriceProductName("LG LCD")>150);
+		verifyTrue(homePage.getPriceProductName("LG LCD")<1000);
 	}
 	@AfterClass
 	public void AfterClasss() {

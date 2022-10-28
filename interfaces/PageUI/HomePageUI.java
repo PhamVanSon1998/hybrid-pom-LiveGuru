@@ -21,6 +21,13 @@ public class HomePageUI {
 	
 	public static final String TV_LINK = "//a[text()='TV']";
 	
+	public static final String ADVACED_SEARCH_LINK ="//a[@title='Advanced Search']";
+	public static final String PRICE_FROM ="//input[@name='price[from]']";
+	public static final String PRICE_TO ="//input[@name='price[to]']";
+	public static final String SEARCH_BUTTON ="//div[@class='buttons-set']//button[@title='Search']";
+	public static final String PRICE_PRODUCT_WITH_NAME ="//a[text()='%s']/parent::h2/following-sibling::div//span[@class='price']";
+	
+	
 	
 
 }

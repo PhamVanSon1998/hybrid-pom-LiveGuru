@@ -99,4 +99,29 @@ public class HomePage extends AbstractPage {
 		clickToElement(driver, HomePageUI.TV_LINK);
 	}
 
+	public void clickToAdvancedSearchLink() {
+		waitToElementClickable(driver, HomePageUI.ADVACED_SEARCH_LINK);
+		clickToElement(driver, HomePageUI.ADVACED_SEARCH_LINK);
+		clickToElement(driver, HomePageUI.ADVACED_SEARCH_LINK);
+	}
+
+	public void inputToPriceFromTextbox(String priceFromTextbox) {
+		waitToElementVisible(driver, HomePageUI.PRICE_FROM);
+		senkeysToElement(driver, HomePageUI.PRICE_FROM, priceFromTextbox);
+	}
+
+	public void InputToPriceToTextbox(String priceToTextbox) {
+		waitToElementVisible(driver, HomePageUI.PRICE_FROM);
+		senkeysToElement(driver, HomePageUI.PRICE_TO, priceToTextbox);
+	}
+
+	public void clickToSearchButton() {
+		waitToElementClickable(driver, HomePageUI.SEARCH_BUTTON);
+		clickToElement(driver, HomePageUI.SEARCH_BUTTON);
+	}
+
+	public int getPriceProductName(String productName) {
+		waitToElementVisible(driver, HomePageUI.PRICE_PRODUCT_WITH_NAME,productName);
+		return Integer.parseInt(getElementText(driver, HomePageUI.PRICE_PRODUCT_WITH_NAME, productName).replace("$", "").replace(".00", ""));
+	}
 }
