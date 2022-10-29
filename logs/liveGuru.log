@@ -4639,3 +4639,685 @@ Session ID: f09731aa-d1f4-47ce-bc60-a1ceaac11ab5
 [INFO ] [2022-10-21 22:51:40,779] Verify purchase Product-Step 19:Click continue button in payment
 [INFO ] [2022-10-21 22:51:40,981] Verify purchase Product-Step 20:Click Place order button 
 [INFO ] [2022-10-21 22:51:41,555] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 19:33:43,024] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-28 19:33:43,247] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-28 19:33:44,657] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-28 19:33:45,205] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-28 19:33:45,563] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-28 19:33:45,822] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy78047@gmail.com
+[INFO ] [2022-10-28 19:33:46,228] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-28 19:33:46,626] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 19:33:46,897] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 19:33:47,096] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-28 19:33:48,940] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-28 19:33:49,297]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:49,305] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-28 19:33:50,261] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-28 19:33:51,255] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-28 19:33:51,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:51,644] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-28 19:33:51,741]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:51,741] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-28 19:33:51,828]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:51,828] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy78047@gmail.com
+[INFO ] [2022-10-28 19:33:51,935]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:51,936] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-28 19:33:53,197] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-28 19:33:54,446] Login Success-Step 02: Input to Email textbox with value:Phanthuy78047@gmail.com
+[INFO ] [2022-10-28 19:33:54,944] Login Success-Step 03: Input to Password textbox with value: 28111998
+[INFO ] [2022-10-28 19:33:55,183] Login Success-Step 04: Click to Login button and navigate to My Dashboard Page
+[INFO ] [2022-10-28 19:33:56,396] Login Success-Step 05: Verify Login Success with text value 'Hello, Phan Thi Thuy!
+[INFO ] [2022-10-28 19:33:56,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:56,725] Login Success-Step 06: Verify 'My Dashboard' is displayed
+[INFO ] [2022-10-28 19:33:56,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:33:56,861] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 19:33:59,046] Verify cost-Step 02:Get cost Sony Experia
+[INFO ] [2022-10-28 19:33:59,434] Verify cost-Step 03: Click To Sony Experia detail
+[INFO ] [2022-10-28 19:34:01,645] Verify cost-Step 04: Get cost Sony Experia in Sony Experia detail
+[INFO ] [2022-10-28 19:34:01,980]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:01,983] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 19:34:02,998] Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia
+[INFO ] [2022-10-28 19:34:07,306] Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed
+[INFO ] [2022-10-28 19:34:07,418]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:07,418] Verify Discount Coupon-Step 03: Input To Discount code Textbox with value 'GURU50'
+[INFO ] [2022-10-28 19:34:07,914] Verify Discount Coupon-Step 04: Click Apply link
+[INFO ] [2022-10-28 19:34:09,328] Verify Discount Coupon-Step 05: Verify the discout generate
+[INFO ] [2022-10-28 19:34:09,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:09,459] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-28 19:34:09,661] Verify not Add more 500 Item-Step 01: Click to Update button
+[INFO ] [2022-10-28 19:34:11,776] Verify not Add more 500 Item-Step 01: verify Error message Display with value 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2022-10-28 19:34:11,880]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:11,881] Verify not Add more 500 Item-Step 01: Click Empty cart link
+[INFO ] [2022-10-28 19:34:13,572] Verify not Add more 500 Item-Step 01: Verify cart is empty
+[INFO ] [2022-10-28 19:34:13,656]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:13,659] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-28 19:34:14,707] Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia
+[INFO ] [2022-10-28 19:34:16,465] Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success
+[INFO ] [2022-10-28 19:34:16,558]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:16,558] Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone
+[INFO ] [2022-10-28 19:34:18,173] Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success
+[INFO ] [2022-10-28 19:34:18,578]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:18,578] Verify able Compare Two Products-Step 06: Click Compare button and open popup
+[INFO ] [2022-10-28 19:34:18,863] Verify able Compare Two Products-Step 07: Click moblie menu
+[INFO ] [2022-10-28 19:34:20,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:20,790] Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display
+[INFO ] [2022-10-28 19:34:20,860]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:20,917]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:20,917] Verify able Compare Two Products-Step 09: Close Popup Windows
+[INFO ] [2022-10-28 19:34:21,038] Verify able Compare Two Products-Step 10: Verify popup Window is closed
+[INFO ] [2022-10-28 19:34:26,105]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:26,108] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-28 19:34:27,510] Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist
+[INFO ] [2022-10-28 19:34:29,176] Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success
+[INFO ] [2022-10-28 19:34:29,291]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:29,291] Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button
+[INFO ] [2022-10-28 19:34:31,517] Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist
+[INFO ] [2022-10-28 19:34:32,022] Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist
+[INFO ] [2022-10-28 19:34:32,258] Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page
+[INFO ] [2022-10-28 19:34:34,890] Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success
+[INFO ] [2022-10-28 19:34:35,005]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:35,005] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 19:34:35,063]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:35,064] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 19:34:35,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:35,391] Verify Add Your Rview-Step 01: Click to TV link
+[INFO ] [2022-10-28 19:34:36,901] Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'
+[INFO ] [2022-10-28 19:34:38,784] Verify Add Your Rview-Step 03: Click to 'Add to Review' link
+[INFO ] [2022-10-28 19:34:40,027] Verify Add Your Rview-Step 04: Click to 'Submit Review' button
+[INFO ] [2022-10-28 19:34:40,193] Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field
+[INFO ] [2022-10-28 19:34:40,650]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:40,651] Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field 
+[INFO ] [2022-10-28 19:34:40,788]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:40,788] Verify Add Your Rview-Step 08: Select quality radio button
+[INFO ] [2022-10-28 19:34:40,974] Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea
+[INFO ] [2022-10-28 19:34:41,223] Verify Add Your Rview-Step 10: Input to 'Your Review' textbox
+[INFO ] [2022-10-28 19:34:41,453] Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox
+[INFO ] [2022-10-28 19:34:41,746] Verify Add Your Rview-Step 12: Click to 'Submit Review' button
+[INFO ] [2022-10-28 19:34:45,225] Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed
+[INFO ] [2022-10-28 19:34:45,350]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 19:34:45,354] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 19:34:46,884] Verify purchase Product-Step 02: Click Add to cart link 
+[INFO ] [2022-10-28 19:34:49,696] Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''
+[INFO ] [2022-10-28 19:34:50,235] Verify purchase Product-Step 04: Input state/province textbox
+[INFO ] [2022-10-28 19:34:50,489] Verify purchase Product-Step 04: Input zip textbox
+[INFO ] [2022-10-28 19:34:50,734] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 19:34:52,680] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 19:34:54,857] Verify purchase Product-Step 06:Verify flat displayed 
+[INFO ] [2022-10-28 19:34:54,858] Verify purchase Product-Step 07:Input Company name textbox 
+[INFO ] [2022-10-28 19:34:55,626] Verify purchase Product-Step 08:Input Address textbox 
+[INFO ] [2022-10-28 19:34:55,898] Verify purchase Product-Step 09:Input Street Address 2 textbox 
+[INFO ] [2022-10-28 19:34:56,276] Verify purchase Product-Step 10:Input City textbox 
+[INFO ] [2022-10-28 19:34:56,539] Verify purchase Product-Step 11:Select state/province dropdown 
+[INFO ] [2022-10-28 19:34:56,811] Verify purchase Product-Step 12:Input zip textbox 
+[INFO ] [2022-10-28 19:34:57,075] Verify purchase Product-Step 13:Select country dropdown 
+[INFO ] [2022-10-28 19:34:57,256] Verify purchase Product-Step 14:Input to telephone textbox 
+[INFO ] [2022-10-28 19:34:57,549] Verify purchase Product-Step 15:Input fax textbox 
+[INFO ] [2022-10-28 19:34:57,772] Verify purchase Product-Step 16:Click continue button in billing
+[INFO ] [2022-10-28 19:34:57,966] Verify purchase Product-Step 17:Click continue button in Shipping Method
+[INFO ] [2022-10-28 19:34:59,762] Verify purchase Product-Step 18:Select Check/Money Order radio button 
+[INFO ] [2022-10-28 19:35:00,525] Verify purchase Product-Step 19:Click continue button in payment
+[INFO ] [2022-10-28 19:35:00,668] Verify purchase Product-Step 20:Click Place order button 
+[INFO ] [2022-10-28 19:35:01,696] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 20:14:58,671] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 20:14:58,683] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:14:59,897] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:15:00,332] Search functionality-Step 03: Input Price to textbox with value 150
+[INFO ] [2022-10-28 20:15:00,517] Search functionality-Step 04: ClickToSearchButton
+[INFO ] [2022-10-28 20:15:02,350] Search functionality-Step 05: Verify price Product display < 150 and >0
+[INFO ] [2022-10-28 20:15:02,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:15:02,645] Search functionality-Step 06: Click advanced search link
+[INFO ] [2022-10-28 20:15:03,470] Search functionality-Step 07: Input Price from textbox with value 151
+[INFO ] [2022-10-28 20:15:03,903] Search functionality-Step 08: Input Price to textbox with value 1000
+[INFO ] [2022-10-28 20:15:04,075] Search functionality-Step 09: ClickToSearchButton
+[INFO ] [2022-10-28 20:15:05,160] Search functionality-Step 10: Verify price Product display < 1000 and >151
+[INFO ] [2022-10-28 20:15:05,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:15:41,717] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:15:42,860] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:15:43,264] Search functionality-Step 03: Input Price to textbox with value 150
+[INFO ] [2022-10-28 20:15:43,477] Search functionality-Step 04: ClickToSearchButton
+[INFO ] [2022-10-28 20:15:44,877] Search functionality-Step 05: Verify price Product display < 150 and >0
+[INFO ] [2022-10-28 20:15:45,251]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:15:45,254] Search functionality-Step 06: Click advanced search link
+[INFO ] [2022-10-28 20:15:46,146] Search functionality-Step 07: Input Price from textbox with value 151
+[INFO ] [2022-10-28 20:15:46,542] Search functionality-Step 08: Input Price to textbox with value 1000
+[INFO ] [2022-10-28 20:15:46,722] Search functionality-Step 09: ClickToSearchButton
+[INFO ] [2022-10-28 20:15:47,874] Search functionality-Step 10: Verify price Product display < 1000 and >151
+[INFO ] [2022-10-28 20:15:48,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:16:53,287] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-28 20:16:53,449] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-28 20:16:54,349] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-28 20:16:54,749] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-28 20:16:54,966] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-28 20:16:55,156] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy948032@gmail.com
+[INFO ] [2022-10-28 20:16:55,380] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-28 20:16:55,591] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:16:55,774] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:16:55,923] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-28 20:16:57,741] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-28 20:16:58,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:16:58,044] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-28 20:16:58,917] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-28 20:17:00,068] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-28 20:17:00,337]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:00,337] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-28 20:17:00,432]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:00,432] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-28 20:17:00,491]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:00,491] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy948032@gmail.com
+[INFO ] [2022-10-28 20:17:00,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:00,553] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-28 20:17:01,957] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-28 20:17:03,183] Login Success-Step 02: Input to Email textbox with value:Phanthuy948032@gmail.com
+[INFO ] [2022-10-28 20:17:03,612] Login Success-Step 03: Input to Password textbox with value: 28111998
+[INFO ] [2022-10-28 20:17:03,813] Login Success-Step 04: Click to Login button and navigate to My Dashboard Page
+[INFO ] [2022-10-28 20:17:05,131] Login Success-Step 05: Verify Login Success with text value 'Hello, Phan Thi Thuy!
+[INFO ] [2022-10-28 20:17:05,415]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:05,415] Login Success-Step 06: Verify 'My Dashboard' is displayed
+[INFO ] [2022-10-28 20:17:05,534]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:05,538] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:17:07,232] Verify cost-Step 02:Get cost Sony Experia
+[INFO ] [2022-10-28 20:17:07,578] Verify cost-Step 03: Click To Sony Experia detail
+[INFO ] [2022-10-28 20:17:09,852] Verify cost-Step 04: Get cost Sony Experia in Sony Experia detail
+[INFO ] [2022-10-28 20:17:10,127]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:10,130] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:17:11,003] Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia
+[INFO ] [2022-10-28 20:17:12,617] Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed
+[INFO ] [2022-10-28 20:17:12,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:12,939] Verify Discount Coupon-Step 03: Input To Discount code Textbox with value 'GURU50'
+[INFO ] [2022-10-28 20:17:13,146] Verify Discount Coupon-Step 04: Click Apply link
+[INFO ] [2022-10-28 20:17:14,430] Verify Discount Coupon-Step 05: Verify the discout generate
+[INFO ] [2022-10-28 20:17:14,742]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:14,746] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-28 20:17:14,964] Verify not Add more 500 Item-Step 01: Click to Update button
+[INFO ] [2022-10-28 20:17:16,333] Verify not Add more 500 Item-Step 01: verify Error message Display with value 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2022-10-28 20:17:16,631]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:16,631] Verify not Add more 500 Item-Step 01: Click Empty cart link
+[INFO ] [2022-10-28 20:17:17,820] Verify not Add more 500 Item-Step 01: Verify cart is empty
+[INFO ] [2022-10-28 20:17:18,124]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:18,127] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-28 20:17:19,014] Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia
+[INFO ] [2022-10-28 20:17:20,511] Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success
+[INFO ] [2022-10-28 20:17:20,802]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:20,802] Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone
+[INFO ] [2022-10-28 20:17:22,098] Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success
+[INFO ] [2022-10-28 20:17:22,169]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:22,169] Verify able Compare Two Products-Step 06: Click Compare button and open popup
+[INFO ] [2022-10-28 20:17:22,597] Verify able Compare Two Products-Step 07: Click moblie menu
+[INFO ] [2022-10-28 20:17:24,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:24,347] Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display
+[INFO ] [2022-10-28 20:17:24,383]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:24,444]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:24,444] Verify able Compare Two Products-Step 09: Close Popup Windows
+[INFO ] [2022-10-28 20:17:24,570] Verify able Compare Two Products-Step 10: Verify popup Window is closed
+[INFO ] [2022-10-28 20:17:29,683]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:29,686] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-28 20:17:30,928] Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist
+[INFO ] [2022-10-28 20:17:32,433] Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success
+[INFO ] [2022-10-28 20:17:32,511]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:32,512] Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button
+[INFO ] [2022-10-28 20:17:33,980] Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist
+[INFO ] [2022-10-28 20:17:34,368] Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist
+[INFO ] [2022-10-28 20:17:34,596] Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page
+[INFO ] [2022-10-28 20:17:36,173] Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success
+[INFO ] [2022-10-28 20:17:36,251]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:36,251] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:17:36,286]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:36,286] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:17:36,359]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:36,362] Verify Add Your Rview-Step 01: Click to TV link
+[INFO ] [2022-10-28 20:17:37,898] Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'
+[INFO ] [2022-10-28 20:17:39,980] Verify Add Your Rview-Step 03: Click to 'Add to Review' link
+[INFO ] [2022-10-28 20:17:41,127] Verify Add Your Rview-Step 04: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:17:41,264] Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field
+[INFO ] [2022-10-28 20:17:41,675]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:41,675] Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field 
+[INFO ] [2022-10-28 20:17:41,802]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:41,802] Verify Add Your Rview-Step 08: Select quality radio button
+[INFO ] [2022-10-28 20:17:41,959] Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea
+[INFO ] [2022-10-28 20:17:42,178] Verify Add Your Rview-Step 10: Input to 'Your Review' textbox
+[INFO ] [2022-10-28 20:17:42,422] Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox
+[INFO ] [2022-10-28 20:17:42,628] Verify Add Your Rview-Step 12: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:17:44,355] Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed
+[INFO ] [2022-10-28 20:17:44,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:17:44,771] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 20:17:46,015] Verify purchase Product-Step 02: Click Add to cart link 
+[INFO ] [2022-10-28 20:17:47,583] Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''
+[INFO ] [2022-10-28 20:17:47,988] Verify purchase Product-Step 04: Input state/province textbox
+[INFO ] [2022-10-28 20:17:48,205] Verify purchase Product-Step 04: Input zip textbox
+[INFO ] [2022-10-28 20:17:48,401] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:17:49,834] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:17:51,813] Verify purchase Product-Step 06:Verify flat displayed 
+[INFO ] [2022-10-28 20:17:51,813] Verify purchase Product-Step 07:Input Company name textbox 
+[INFO ] [2022-10-28 20:17:52,261] Verify purchase Product-Step 08:Input Address textbox 
+[INFO ] [2022-10-28 20:17:52,485] Verify purchase Product-Step 09:Input Street Address 2 textbox 
+[INFO ] [2022-10-28 20:17:52,691] Verify purchase Product-Step 10:Input City textbox 
+[INFO ] [2022-10-28 20:17:52,909] Verify purchase Product-Step 11:Select state/province dropdown 
+[INFO ] [2022-10-28 20:17:53,067] Verify purchase Product-Step 12:Input zip textbox 
+[INFO ] [2022-10-28 20:17:53,251] Verify purchase Product-Step 13:Select country dropdown 
+[INFO ] [2022-10-28 20:17:53,382] Verify purchase Product-Step 14:Input to telephone textbox 
+[INFO ] [2022-10-28 20:17:53,646] Verify purchase Product-Step 15:Input fax textbox 
+[INFO ] [2022-10-28 20:17:53,840] Verify purchase Product-Step 16:Click continue button in billing
+[INFO ] [2022-10-28 20:17:54,007] Verify purchase Product-Step 17:Click continue button in Shipping Method
+[INFO ] [2022-10-28 20:17:55,412] Verify purchase Product-Step 18:Select Check/Money Order radio button 
+[INFO ] [2022-10-28 20:17:59,232] Verify purchase Product-Step 19:Click continue button in payment
+[INFO ] [2022-10-28 20:17:59,363] Verify purchase Product-Step 20:Click Place order button 
+[INFO ] [2022-10-28 20:18:00,545] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 20:18:00,550] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:18:03,405] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:21:02,232] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:21:03,420] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:21:03,904] Search functionality-Step 03: Input Price to textbox with value 150
+[INFO ] [2022-10-28 20:21:04,089] Search functionality-Step 04: ClickToSearchButton
+[INFO ] [2022-10-28 20:21:05,534] Search functionality-Step 05: Verify price Product display < 150 and >0
+[INFO ] [2022-10-28 20:21:05,626]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:05,936]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:05,936] Search functionality-Step 06: Click advanced search link
+[INFO ] [2022-10-28 20:21:06,810] Search functionality-Step 07: Input Price from textbox with value 151
+[INFO ] [2022-10-28 20:21:07,245] Search functionality-Step 08: Input Price to textbox with value 1000
+[INFO ] [2022-10-28 20:21:07,437] Search functionality-Step 09: ClickToSearchButton
+[INFO ] [2022-10-28 20:21:08,654] Search functionality-Step 10: Verify price Product display < 1000 and >151
+[INFO ] [2022-10-28 20:21:08,751]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:09,026]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:31,294] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-28 20:21:31,463] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-28 20:21:32,433] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-28 20:21:32,816] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-28 20:21:33,039] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-28 20:21:33,231] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy894432@gmail.com
+[INFO ] [2022-10-28 20:21:33,471] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-28 20:21:33,668] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:21:33,855] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:21:34,015] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-28 20:21:35,821] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-28 20:21:35,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:35,927] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-28 20:21:37,086] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-28 20:21:38,142] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-28 20:21:38,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:38,451] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-28 20:21:38,537]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:38,538] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-28 20:21:38,598]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:38,599] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy894432@gmail.com
+[INFO ] [2022-10-28 20:21:38,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:38,662] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-28 20:21:40,006] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-28 20:21:41,142] Login Success-Step 02: Input to Email textbox with value:Phanthuy894432@gmail.com
+[INFO ] [2022-10-28 20:21:41,592] Login Success-Step 03: Input to Password textbox with value: 28111998
+[INFO ] [2022-10-28 20:21:41,795] Login Success-Step 04: Click to Login button and navigate to My Dashboard Page
+[INFO ] [2022-10-28 20:21:42,936] Login Success-Step 05: Verify Login Success with text value 'Hello, Phan Thi Thuy!
+[INFO ] [2022-10-28 20:21:43,253]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:43,253] Login Success-Step 06: Verify 'My Dashboard' is displayed
+[INFO ] [2022-10-28 20:21:43,360]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:43,364] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:21:45,005] Verify cost-Step 02:Get cost Sony Experia
+[INFO ] [2022-10-28 20:21:45,333] Verify cost-Step 03: Click To Sony Experia detail
+[INFO ] [2022-10-28 20:21:47,491] Verify cost-Step 04: Get cost Sony Experia in Sony Experia detail
+[INFO ] [2022-10-28 20:21:47,799]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:47,802] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:21:48,685] Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia
+[INFO ] [2022-10-28 20:21:50,189] Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed
+[INFO ] [2022-10-28 20:21:50,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:50,520] Verify Discount Coupon-Step 03: Input To Discount code Textbox with value 'GURU50'
+[INFO ] [2022-10-28 20:21:50,722] Verify Discount Coupon-Step 04: Click Apply link
+[INFO ] [2022-10-28 20:21:52,078] Verify Discount Coupon-Step 05: Verify the discout generate
+[INFO ] [2022-10-28 20:21:52,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:52,185] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-28 20:21:52,695] Verify not Add more 500 Item-Step 01: Click to Update button
+[INFO ] [2022-10-28 20:21:54,173] Verify not Add more 500 Item-Step 01: verify Error message Display with value 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2022-10-28 20:21:54,270]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:54,270] Verify not Add more 500 Item-Step 01: Click Empty cart link
+[INFO ] [2022-10-28 20:21:55,432] Verify not Add more 500 Item-Step 01: Verify cart is empty
+[INFO ] [2022-10-28 20:21:55,785]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:55,788] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-28 20:21:56,717] Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia
+[INFO ] [2022-10-28 20:21:58,131] Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success
+[INFO ] [2022-10-28 20:21:58,225]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:58,225] Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone
+[INFO ] [2022-10-28 20:21:59,751] Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success
+[INFO ] [2022-10-28 20:21:59,837]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:21:59,838] Verify able Compare Two Products-Step 06: Click Compare button and open popup
+[INFO ] [2022-10-28 20:22:00,280] Verify able Compare Two Products-Step 07: Click moblie menu
+[INFO ] [2022-10-28 20:22:01,855]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:01,855] Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display
+[INFO ] [2022-10-28 20:22:01,901]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:01,948]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:01,948] Verify able Compare Two Products-Step 09: Close Popup Windows
+[INFO ] [2022-10-28 20:22:02,065] Verify able Compare Two Products-Step 10: Verify popup Window is closed
+[INFO ] [2022-10-28 20:22:07,150]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:07,152] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-28 20:22:08,232] Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist
+[INFO ] [2022-10-28 20:22:09,760] Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success
+[INFO ] [2022-10-28 20:22:09,847]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:09,847] Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button
+[INFO ] [2022-10-28 20:22:11,211] Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist
+[INFO ] [2022-10-28 20:22:11,585] Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist
+[INFO ] [2022-10-28 20:22:11,809] Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page
+[INFO ] [2022-10-28 20:22:13,059] Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success
+[INFO ] [2022-10-28 20:22:13,146]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:13,146] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:22:13,201]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:13,202] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:22:13,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:13,523] Verify Add Your Rview-Step 01: Click to TV link
+[INFO ] [2022-10-28 20:22:14,675] Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'
+[INFO ] [2022-10-28 20:22:16,238] Verify Add Your Rview-Step 03: Click to 'Add to Review' link
+[INFO ] [2022-10-28 20:22:17,443] Verify Add Your Rview-Step 04: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:22:17,834] Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field
+[INFO ] [2022-10-28 20:22:17,992]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:17,993] Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field 
+[INFO ] [2022-10-28 20:22:18,070]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:18,071] Verify Add Your Rview-Step 08: Select quality radio button
+[INFO ] [2022-10-28 20:22:18,218] Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea
+[INFO ] [2022-10-28 20:22:18,401] Verify Add Your Rview-Step 10: Input to 'Your Review' textbox
+[INFO ] [2022-10-28 20:22:18,624] Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox
+[INFO ] [2022-10-28 20:22:18,882] Verify Add Your Rview-Step 12: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:22:20,728] Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed
+[INFO ] [2022-10-28 20:22:20,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:22:20,805] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 20:22:21,945] Verify purchase Product-Step 02: Click Add to cart link 
+[INFO ] [2022-10-28 20:22:23,722] Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''
+[INFO ] [2022-10-28 20:22:24,121] Verify purchase Product-Step 04: Input state/province textbox
+[INFO ] [2022-10-28 20:22:24,374] Verify purchase Product-Step 04: Input zip textbox
+[INFO ] [2022-10-28 20:22:24,575] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:22:25,996] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:22:27,901] Verify purchase Product-Step 06:Verify flat displayed 
+[INFO ] [2022-10-28 20:22:27,901] Verify purchase Product-Step 07:Input Company name textbox 
+[INFO ] [2022-10-28 20:22:28,328] Verify purchase Product-Step 08:Input Address textbox 
+[INFO ] [2022-10-28 20:22:28,575] Verify purchase Product-Step 09:Input Street Address 2 textbox 
+[INFO ] [2022-10-28 20:22:28,785] Verify purchase Product-Step 10:Input City textbox 
+[INFO ] [2022-10-28 20:22:29,005] Verify purchase Product-Step 11:Select state/province dropdown 
+[INFO ] [2022-10-28 20:22:29,150] Verify purchase Product-Step 12:Input zip textbox 
+[INFO ] [2022-10-28 20:22:29,353] Verify purchase Product-Step 13:Select country dropdown 
+[INFO ] [2022-10-28 20:22:29,481] Verify purchase Product-Step 14:Input to telephone textbox 
+[INFO ] [2022-10-28 20:22:29,699] Verify purchase Product-Step 15:Input fax textbox 
+[INFO ] [2022-10-28 20:22:29,899] Verify purchase Product-Step 16:Click continue button in billing
+[INFO ] [2022-10-28 20:22:30,046] Verify purchase Product-Step 17:Click continue button in Shipping Method
+[INFO ] [2022-10-28 20:22:31,308] Verify purchase Product-Step 18:Select Check/Money Order radio button 
+[INFO ] [2022-10-28 20:22:31,941] Verify purchase Product-Step 19:Click continue button in payment
+[INFO ] [2022-10-28 20:22:32,084] Verify purchase Product-Step 20:Click Place order button 
+[INFO ] [2022-10-28 20:22:32,670] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 20:22:32,675] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:22:34,657] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:23:03,872] Search functionality-Step 03: Input Price to textbox with value 150
+[INFO ] [2022-10-28 20:23:04,062] Search functionality-Step 04: ClickToSearchButton
+[INFO ] [2022-10-28 20:23:04,942] Search functionality-Step 05: Verify price Product display < 150 and >0
+[INFO ] [2022-10-28 20:23:05,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:23:05,280]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:23:05,281] Search functionality-Step 06: Click advanced search link
+[INFO ] [2022-10-28 20:23:06,190] Search functionality-Step 07: Input Price from textbox with value 151
+[INFO ] [2022-10-28 20:23:06,622] Search functionality-Step 08: Input Price to textbox with value 1000
+[INFO ] [2022-10-28 20:23:06,792] Search functionality-Step 09: ClickToSearchButton
+[INFO ] [2022-10-28 20:23:07,672] Search functionality-Step 10: Verify price Product display < 1000 and >151
+[INFO ] [2022-10-28 20:23:07,776]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:23:08,049]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:05,247] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-28 20:24:05,411] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-28 20:24:06,413] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-28 20:24:06,819] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-28 20:24:07,010] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-28 20:24:07,199] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy74097@gmail.com
+[INFO ] [2022-10-28 20:24:07,418] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-28 20:24:07,605] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:24:07,794] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:24:07,941] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-28 20:24:09,681] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-28 20:24:10,022]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:10,029] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-28 20:24:10,820] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-28 20:24:11,908] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-28 20:24:12,178]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:12,178] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-28 20:24:12,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:12,243] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-28 20:24:12,302]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:12,302] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy74097@gmail.com
+[INFO ] [2022-10-28 20:24:12,366]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:12,366] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-28 20:24:13,535] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-28 20:24:14,682] Login Success-Step 02: Input to Email textbox with value:Phanthuy74097@gmail.com
+[INFO ] [2022-10-28 20:24:15,127] Login Success-Step 03: Input to Password textbox with value: 28111998
+[INFO ] [2022-10-28 20:24:15,305] Login Success-Step 04: Click to Login button and navigate to My Dashboard Page
+[INFO ] [2022-10-28 20:24:16,468] Login Success-Step 05: Verify Login Success with text value 'Hello, Phan Thi Thuy!
+[INFO ] [2022-10-28 20:24:16,781]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:16,781] Login Success-Step 06: Verify 'My Dashboard' is displayed
+[INFO ] [2022-10-28 20:24:16,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:16,887] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:24:18,566] Verify cost-Step 02:Get cost Sony Experia
+[INFO ] [2022-10-28 20:24:18,938] Verify cost-Step 03: Click To Sony Experia detail
+[INFO ] [2022-10-28 20:24:21,127] Verify cost-Step 04: Get cost Sony Experia in Sony Experia detail
+[INFO ] [2022-10-28 20:24:21,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:21,413] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:24:22,335] Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia
+[INFO ] [2022-10-28 20:24:23,992] Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed
+[INFO ] [2022-10-28 20:24:24,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:24,310] Verify Discount Coupon-Step 03: Input To Discount code Textbox with value 'GURU50'
+[INFO ] [2022-10-28 20:24:24,514] Verify Discount Coupon-Step 04: Click Apply link
+[INFO ] [2022-10-28 20:24:25,845] Verify Discount Coupon-Step 05: Verify the discout generate
+[INFO ] [2022-10-28 20:24:26,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:26,142] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-28 20:24:26,367] Verify not Add more 500 Item-Step 01: Click to Update button
+[INFO ] [2022-10-28 20:24:27,696] Verify not Add more 500 Item-Step 01: verify Error message Display with value 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2022-10-28 20:24:28,018]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:28,019] Verify not Add more 500 Item-Step 01: Click Empty cart link
+[INFO ] [2022-10-28 20:24:29,202] Verify not Add more 500 Item-Step 01: Verify cart is empty
+[INFO ] [2022-10-28 20:24:29,500]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:29,503] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-28 20:24:30,328] Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia
+[INFO ] [2022-10-28 20:24:31,849] Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success
+[INFO ] [2022-10-28 20:24:32,164]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:32,164] Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone
+[INFO ] [2022-10-28 20:24:33,425] Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success
+[INFO ] [2022-10-28 20:24:33,733]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:33,733] Verify able Compare Two Products-Step 06: Click Compare button and open popup
+[INFO ] [2022-10-28 20:24:33,965] Verify able Compare Two Products-Step 07: Click moblie menu
+[INFO ] [2022-10-28 20:24:35,642]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:35,642] Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display
+[INFO ] [2022-10-28 20:24:35,676]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:35,722]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:35,722] Verify able Compare Two Products-Step 09: Close Popup Windows
+[INFO ] [2022-10-28 20:24:35,827] Verify able Compare Two Products-Step 10: Verify popup Window is closed
+[INFO ] [2022-10-28 20:24:40,910]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:40,913] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-28 20:24:41,780] Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist
+[INFO ] [2022-10-28 20:24:43,340] Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success
+[INFO ] [2022-10-28 20:24:43,649]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:43,650] Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button
+[INFO ] [2022-10-28 20:24:44,829] Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist
+[INFO ] [2022-10-28 20:24:45,209] Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist
+[INFO ] [2022-10-28 20:24:45,402] Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page
+[INFO ] [2022-10-28 20:24:46,680] Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success
+[INFO ] [2022-10-28 20:24:46,762]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:46,762] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:24:47,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:47,064] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:24:47,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:47,182] Verify Add Your Rview-Step 01: Click to TV link
+[INFO ] [2022-10-28 20:24:48,125] Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'
+[INFO ] [2022-10-28 20:24:50,100] Verify Add Your Rview-Step 03: Click to 'Add to Review' link
+[INFO ] [2022-10-28 20:24:51,121] Verify Add Your Rview-Step 04: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:24:51,285] Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field
+[INFO ] [2022-10-28 20:24:51,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:51,417] Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field 
+[INFO ] [2022-10-28 20:24:51,512]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:51,512] Verify Add Your Rview-Step 08: Select quality radio button
+[INFO ] [2022-10-28 20:24:51,648] Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea
+[INFO ] [2022-10-28 20:24:51,872] Verify Add Your Rview-Step 10: Input to 'Your Review' textbox
+[INFO ] [2022-10-28 20:24:52,088] Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox
+[INFO ] [2022-10-28 20:24:52,338] Verify Add Your Rview-Step 12: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:24:54,022] Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed
+[INFO ] [2022-10-28 20:24:54,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:24:54,420] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 20:24:55,328] Verify purchase Product-Step 02: Click Add to cart link 
+[INFO ] [2022-10-28 20:24:57,161] Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''
+[INFO ] [2022-10-28 20:24:57,628] Verify purchase Product-Step 04: Input state/province textbox
+[INFO ] [2022-10-28 20:24:57,842] Verify purchase Product-Step 04: Input zip textbox
+[INFO ] [2022-10-28 20:24:58,044] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:24:59,346] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:25:01,370] Verify purchase Product-Step 06:Verify flat displayed 
+[INFO ] [2022-10-28 20:25:01,370] Verify purchase Product-Step 07:Input Company name textbox 
+[INFO ] [2022-10-28 20:25:01,827] Verify purchase Product-Step 08:Input Address textbox 
+[INFO ] [2022-10-28 20:25:02,031] Verify purchase Product-Step 09:Input Street Address 2 textbox 
+[INFO ] [2022-10-28 20:25:02,245] Verify purchase Product-Step 10:Input City textbox 
+[INFO ] [2022-10-28 20:25:02,428] Verify purchase Product-Step 11:Select state/province dropdown 
+[INFO ] [2022-10-28 20:25:02,593] Verify purchase Product-Step 12:Input zip textbox 
+[INFO ] [2022-10-28 20:25:02,773] Verify purchase Product-Step 13:Select country dropdown 
+[INFO ] [2022-10-28 20:25:02,886] Verify purchase Product-Step 14:Input to telephone textbox 
+[INFO ] [2022-10-28 20:25:03,077] Verify purchase Product-Step 15:Input fax textbox 
+[INFO ] [2022-10-28 20:25:03,267] Verify purchase Product-Step 16:Click continue button in billing
+[INFO ] [2022-10-28 20:25:03,401] Verify purchase Product-Step 17:Click continue button in Shipping Method
+[INFO ] [2022-10-28 20:25:04,670] Verify purchase Product-Step 18:Select Check/Money Order radio button 
+[INFO ] [2022-10-28 20:25:05,260] Verify purchase Product-Step 19:Click continue button in payment
+[INFO ] [2022-10-28 20:25:05,409] Verify purchase Product-Step 20:Click Place order button 
+[INFO ] [2022-10-28 20:25:06,059] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 20:25:06,064] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:25:07,675] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:27:22,348] Register Success Step-01: Click on 'Account' menu
+[INFO ] [2022-10-28 20:27:22,509] Register Success Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-28 20:27:24,018] Register Success Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-28 20:27:24,212] Register Success Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-28 20:27:24,417] Register Success Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-28 20:27:24,882] Register Success Step-06: Input to 'Email Address' textboxvalue: Phanthuy720281@gmail.com
+[INFO ] [2022-10-28 20:27:25,106] Register Success Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-28 20:27:25,310] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:27:25,527] Register Success Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-28 20:27:25,672] Register Success Step-09: Click ton 'Register' link
+[INFO ] [2022-10-28 20:27:27,425] Register Success Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-28 20:27:27,984]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:27,993] Verify Infomation Register-Step 01: Click to 'My Account' link and navigate to My Account Page
+[INFO ] [2022-10-28 20:27:28,875] Verify Infomation Register-Step 02: Click to 'Acount Information' in My Account Page
+[INFO ] [2022-10-28 20:27:29,960] Verify Infomation Register-Step 03: Verify FirstName textbox displayed with value:Phan
+[INFO ] [2022-10-28 20:27:30,327]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:30,327] Verify Infomation Register-Step 04: Verify Middlel tName textbox displayed with value:Thi
+[INFO ] [2022-10-28 20:27:30,388]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:30,388] Verify Infomation Register-Step 05: Verify LastName textbox displayed with value:Thuy
+[INFO ] [2022-10-28 20:27:30,462]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:30,462] Verify Infomation Register-Step 06: Verify Email textbox displayed with value:Phanthuy720281@gmail.com
+[INFO ] [2022-10-28 20:27:30,527]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:30,528] Verify Infomation Register-Step 07: Click to 'Logout' link and navigate to Home Page
+[INFO ] [2022-10-28 20:27:31,736] Login Success-Step 01: Click to Login link and navigate to Login Page
+[INFO ] [2022-10-28 20:27:32,868] Login Success-Step 02: Input to Email textbox with value:Phanthuy720281@gmail.com
+[INFO ] [2022-10-28 20:27:33,430] Login Success-Step 03: Input to Password textbox with value: 28111998
+[INFO ] [2022-10-28 20:27:33,663] Login Success-Step 04: Click to Login button and navigate to My Dashboard Page
+[INFO ] [2022-10-28 20:27:34,831] Login Success-Step 05: Verify Login Success with text value 'Hello, Phan Thi Thuy!
+[INFO ] [2022-10-28 20:27:35,166]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:35,167] Login Success-Step 06: Verify 'My Dashboard' is displayed
+[INFO ] [2022-10-28 20:27:35,286]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:35,289] Verify cost-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:27:37,074] Verify cost-Step 02:Get cost Sony Experia
+[INFO ] [2022-10-28 20:27:37,439] Verify cost-Step 03: Click To Sony Experia detail
+[INFO ] [2022-10-28 20:27:39,606] Verify cost-Step 04: Get cost Sony Experia in Sony Experia detail
+[INFO ] [2022-10-28 20:27:39,700]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:39,703] Verify Discount Coupon-Step 01: Click To Mobile link and navigate to Mobile Page
+[INFO ] [2022-10-28 20:27:40,591] Verify Discount Coupon-Step 02: Click Add To Cart Sony Experia
+[INFO ] [2022-10-28 20:27:42,151] Verify Discount Coupon-Step 02: Veify Massage 'Sony Xperia was added to your shopping cart.' displayed
+[INFO ] [2022-10-28 20:27:42,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:42,501] Verify Discount Coupon-Step 03: Input To Discount code Textbox with value 'GURU50'
+[INFO ] [2022-10-28 20:27:42,727] Verify Discount Coupon-Step 04: Click Apply link
+[INFO ] [2022-10-28 20:27:44,073] Verify Discount Coupon-Step 05: Verify the discout generate
+[INFO ] [2022-10-28 20:27:44,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:44,425] Verify not Add more 500 Item-Step 01: Input to Qty textbox With value: 501
+[INFO ] [2022-10-28 20:27:44,660] Verify not Add more 500 Item-Step 01: Click to Update button
+[INFO ] [2022-10-28 20:27:46,061] Verify not Add more 500 Item-Step 01: verify Error message Display with value 'Some of the products cannot be ordered in requested quantity.'
+[INFO ] [2022-10-28 20:27:46,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:46,420] Verify not Add more 500 Item-Step 01: Click Empty cart link
+[INFO ] [2022-10-28 20:27:47,621] Verify not Add more 500 Item-Step 01: Verify cart is empty
+[INFO ] [2022-10-28 20:27:47,935]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:47,938] Verify able Compare Two Products-Step 01: Click moblie menu
+[INFO ] [2022-10-28 20:27:48,852] Verify able Compare Two Products-Step 02: Click Add to compare with product Sony Experia
+[INFO ] [2022-10-28 20:27:50,385] Verify able Compare Two Products-Step 03: Verify Add to compare with product Sony Experia Success
+[INFO ] [2022-10-28 20:27:50,741]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:50,742] Verify able Compare Two Products-Step 04: Click Add to compare with product Iphone
+[INFO ] [2022-10-28 20:27:52,385] Verify able Compare Two Products-Step 05: Verify Add to compare with product Iphone Success
+[INFO ] [2022-10-28 20:27:52,708]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:52,708] Verify able Compare Two Products-Step 06: Click Compare button and open popup
+[INFO ] [2022-10-28 20:27:52,959] Verify able Compare Two Products-Step 07: Click moblie menu
+[INFO ] [2022-10-28 20:27:55,898]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:55,899] Verify able Compare Two Products-Step 08: Verify Mobile Name Add To Compare Display
+[INFO ] [2022-10-28 20:27:55,957]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:56,023]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:27:56,023] Verify able Compare Two Products-Step 09: Close Popup Windows
+[INFO ] [2022-10-28 20:27:56,135] Verify able Compare Two Products-Step 10: Verify popup Window is closed
+[INFO ] [2022-10-28 20:28:01,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:28:01,269] Verify Share Wishlist Other People-Step 01: Click To TV link
+[INFO ] [2022-10-28 20:28:20,039] Verify Share Wishlist Other People-Step 02:Add LG LCD To Wishlist
+[INFO ] [2022-10-28 20:28:22,136] Verify Share Wishlist Other People-Step 03:Verify Message Add To Wishlist Success
+[INFO ] [2022-10-28 20:28:22,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:28:22,803] Verify Share Wishlist Other People-Step 04: Click Share Wishlist Button
+[INFO ] [2022-10-28 20:28:25,421] Verify Share Wishlist Other People-Step 05: Input Email To Share Wishlist
+[INFO ] [2022-10-28 20:28:25,822] Verify Share Wishlist Other People-Step 06: Input Message to Share Wishlist
+[INFO ] [2022-10-28 20:28:26,014] Verify Share Wishlist Other People-Step 06: Click Share Wishlist Button in Share Your Wishlist Page
+[INFO ] [2022-10-28 20:28:30,918] Verify Share Wishlist Other People-Step 06: Verify Message Share Wishlist Success
+[INFO ] [2022-10-28 20:28:30,994]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:28:30,994] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:28:31,244]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:28:31,245] Verify Share Wishlist Other People-Step 06: Verify My Wishlist page have 1 item
+[INFO ] [2022-10-28 20:28:31,336]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:28:31,339] Verify Add Your Rview-Step 01: Click to TV link
+[INFO ] [2022-10-28 20:28:33,003] Verify Add Your Rview-Step 02: Click to 'SAMSUNG LCD'
+[INFO ] [2022-10-28 20:28:59,166] Verify Add Your Rview-Step 03: Click to 'Add to Review' link
+[INFO ] [2022-10-28 20:29:00,424] Verify Add Your Rview-Step 04: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:29:00,804] Verify Add Your Rview-Step 05: Verify message 'This is a required field.' displayed in thoughts field
+[INFO ] [2022-10-28 20:29:00,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:00,933] Verify Add Your Rview-Step 06: Verify message 'This is a required field.' displayed in review field 
+[INFO ] [2022-10-28 20:29:01,021]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:01,021] Verify Add Your Rview-Step 08: Select quality radio button
+[INFO ] [2022-10-28 20:29:01,172] Verify Add Your Rview-Step 09: Input to 'Thoughts' textarea
+[INFO ] [2022-10-28 20:29:01,358] Verify Add Your Rview-Step 10: Input to 'Your Review' textbox
+[INFO ] [2022-10-28 20:29:01,587] Verify Add Your Rview-Step 11: Input to 'Your NickName' textbox
+[INFO ] [2022-10-28 20:29:01,815] Verify Add Your Rview-Step 12: Click to 'Submit Review' button
+[INFO ] [2022-10-28 20:29:03,267] Verify Add Your Rview-Step 13:Verify mssage'Your review has been accepted for moderation.' displayed
+[INFO ] [2022-10-28 20:29:03,608]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:03,610] Verify purchase Product-Step 01: Click Go to Wishlist link
+[INFO ] [2022-10-28 20:29:04,466] Verify purchase Product-Step 02: Click Add to cart link 
+[INFO ] [2022-10-28 20:29:06,260] Verify purchase Product-Step 03: Select Shipping country dropdown with value: ''
+[INFO ] [2022-10-28 20:29:06,664] Verify purchase Product-Step 04: Input state/province textbox
+[INFO ] [2022-10-28 20:29:06,857] Verify purchase Product-Step 04: Input zip textbox
+[INFO ] [2022-10-28 20:29:07,034] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:29:08,776] Verify purchase Product-Step 05:Click ESTIMATE link 
+[INFO ] [2022-10-28 20:29:10,688] Verify purchase Product-Step 06:Verify flat displayed 
+[INFO ] [2022-10-28 20:29:10,688] Verify purchase Product-Step 07:Input Company name textbox 
+[INFO ] [2022-10-28 20:29:11,083] Verify purchase Product-Step 08:Input Address textbox 
+[INFO ] [2022-10-28 20:29:11,287] Verify purchase Product-Step 09:Input Street Address 2 textbox 
+[INFO ] [2022-10-28 20:29:11,492] Verify purchase Product-Step 10:Input City textbox 
+[INFO ] [2022-10-28 20:29:11,702] Verify purchase Product-Step 11:Select state/province dropdown 
+[INFO ] [2022-10-28 20:29:11,863] Verify purchase Product-Step 12:Input zip textbox 
+[INFO ] [2022-10-28 20:29:12,040] Verify purchase Product-Step 13:Select country dropdown 
+[INFO ] [2022-10-28 20:29:12,147] Verify purchase Product-Step 14:Input to telephone textbox 
+[INFO ] [2022-10-28 20:29:12,358] Verify purchase Product-Step 15:Input fax textbox 
+[INFO ] [2022-10-28 20:29:12,549] Verify purchase Product-Step 16:Click continue button in billing
+[INFO ] [2022-10-28 20:29:12,690] Verify purchase Product-Step 17:Click continue button in Shipping Method
+[INFO ] [2022-10-28 20:29:13,942] Verify purchase Product-Step 18:Select Check/Money Order radio button 
+[INFO ] [2022-10-28 20:29:14,737] Verify purchase Product-Step 19:Click continue button in payment
+[INFO ] [2022-10-28 20:29:14,856] Verify purchase Product-Step 20:Click Place order button 
+[INFO ] [2022-10-28 20:29:15,399] Verify purchase Product-Step 21:Verify Order generated 
+[INFO ] [2022-10-28 20:29:15,404] Search functionality-Step 01: Click advanced search link
+[INFO ] [2022-10-28 20:29:17,818] Search functionality-Step 02: Input Price from textbox with value 0
+[INFO ] [2022-10-28 20:29:18,244] Search functionality-Step 03: Input Price to textbox with value 150
+[INFO ] [2022-10-28 20:29:18,441] Search functionality-Step 04: ClickToSearchButton
+[INFO ] [2022-10-28 20:29:19,339] Search functionality-Step 05: Verify price Product display < 150 and >0
+[INFO ] [2022-10-28 20:29:19,624]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:19,697]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:19,697] Search functionality-Step 06: Click advanced search link
+[INFO ] [2022-10-28 20:29:21,438] Search functionality-Step 07: Input Price from textbox with value 151
+[INFO ] [2022-10-28 20:29:21,844] Search functionality-Step 08: Input Price to textbox with value 1000
+[INFO ] [2022-10-28 20:29:22,014] Search functionality-Step 09: ClickToSearchButton
+[INFO ] [2022-10-28 20:29:22,906] Search functionality-Step 10: Verify price Product display < 1000 and >151
+[INFO ] [2022-10-28 20:29:23,208]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-28 20:29:23,289]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-29 09:52:53,360] Create New Account in FrontEnd and Login in BackEnd Step-01: Click on 'Account' menu
+[INFO ] [2022-10-29 09:52:53,553] Create New Account in FrontEnd and Login in BackEnd Step-02: Click to 'Register' link and navigate to Register Page
+[INFO ] [2022-10-29 09:52:54,494] Create New Account in FrontEnd and Login in BackEnd Step-03: Input to 'FirtName' textbox with value: Phan
+[INFO ] [2022-10-29 09:52:54,916] Create New Account in FrontEnd and Login in BackEnd Step-04: Input to 'Middle Name' textbox value:Thi
+[INFO ] [2022-10-29 09:52:55,108] Create New Account in FrontEnd and Login in BackEnd Step-05: Input to 'LastName' textboxvalue: Thuy
+[INFO ] [2022-10-29 09:52:55,304] Create New Account in FrontEnd and Login in BackEnd Step-06: Input to 'Email Address' textboxvalue: Phanthuy3136@gmail.com
+[INFO ] [2022-10-29 09:52:55,511] Create New Account in FrontEnd and Login in BackEnd Step-07: Input to 'Password' textbox value: 28111998
+[INFO ] [2022-10-29 09:52:55,696] Create New Account in FrontEnd and Login in BackEnd Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-29 09:52:55,886] Create New Account in FrontEnd and Login in BackEnd Step-08: Input to 'Confirm password' textbox value: 28111998
+[INFO ] [2022-10-29 09:52:56,044] Create New Account in FrontEnd and Login in BackEnd Step-09: Click ton 'Register' link
+[INFO ] [2022-10-29 09:52:57,785] Create New Account in FrontEnd and Login in BackEnd Step-10: Verify Register Success with message 'Thank you for registering with Main Website Store.' displayed
+[INFO ] [2022-10-29 09:52:58,105]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-10-29 09:52:58,105] Create New Account in FrontEnd and Login in BackEnd Step 11: Navigate to Liveguru adminPage
+[INFO ] [2022-10-29 09:52:59,454] Create New Account in FrontEnd and Login in BackEnd Step 11: Input to userName BackEnd textbox with value 'user01'
+[INFO ] [2022-10-29 09:52:59,629] Create New Account in FrontEnd and Login in BackEnd Step 11: Input to password Backend textbox with value 'guru99com'
+[INFO ] [2022-10-29 09:52:59,821] Create New Account in FrontEnd and Login in BackEnd Step 11: Click Login button

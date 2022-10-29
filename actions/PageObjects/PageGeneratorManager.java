@@ -4,31 +4,35 @@ import org.openqa.selenium.WebDriver;
 
 public class PageGeneratorManager {
 
-	public static HomePage  getHomePage(WebDriver driver) {
-		return new HomePage(driver);
+	public static HomePageFrontEnd  getHomePage(WebDriver driver) {
+		return new HomePageFrontEnd(driver);
 	}
 	
-	public static RegisterPage  getRegisterPage(WebDriver driver) {
-		return new RegisterPage(driver);
+	public static RegisterPageFrontEnd  getRegisterPage(WebDriver driver) {
+		return new RegisterPageFrontEnd(driver);
 	}
 	
-	public static LoginPage  getLoginPage(WebDriver driver) {
-		return new LoginPage(driver);
+	public static LoginPageFrontEnd  getLoginPage(WebDriver driver) {
+		return new LoginPageFrontEnd(driver);
 	}
 	
-	public static MyAccountPage  getLMyAccountPage(WebDriver driver) {
-		return new MyAccountPage(driver);
+	public static MyAccountPageFrontEnd  getLMyAccountPage(WebDriver driver) {
+		return new MyAccountPageFrontEnd(driver);
 	}
 	
-	public static MyDashboardPage  getLMyDashboardPage(WebDriver driver) {
-		return new MyDashboardPage(driver);
+	public static MyDashboardPageFrontEnd  getLMyDashboardPage(WebDriver driver) {
+		return new MyDashboardPageFrontEnd(driver);
 	}
 	
-	public static MobilePage  getLMobilePage(WebDriver driver) {
-		return new MobilePage(driver);
+	public static MobilePageFrontEnd  getLMobilePage(WebDriver driver) {
+		return new MobilePageFrontEnd(driver);
 	}
 	
-	public static TVPage  getTVPage(WebDriver driver) {
-		return new TVPage(driver);
+	public static TVPageFrontEnd  getTVPage(WebDriver driver) {
+		return new TVPageFrontEnd(driver);
+	}
+	
+	public static HomePageBackEnd  getHomePageBackEnd(WebDriver driver) {
+		return new HomePageBackEnd(driver);
 	}
 }

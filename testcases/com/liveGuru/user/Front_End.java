@@ -6,25 +6,25 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePage;
-import PageObjects.LoginPage;
-import PageObjects.MobilePage;
-import PageObjects.MyAccountPage;
-import PageObjects.MyDashboardPage;
+import PageObjects.HomePageFrontEnd;
+import PageObjects.LoginPageFrontEnd;
+import PageObjects.MobilePageFrontEnd;
+import PageObjects.MyAccountPageFrontEnd;
+import PageObjects.MyDashboardPageFrontEnd;
 import PageObjects.PageGeneratorManager;
-import PageObjects.RegisterPage;
-import PageObjects.TVPage;
+import PageObjects.RegisterPageFrontEnd;
+import PageObjects.TVPageFrontEnd;
 import commons.AbstractTest;
 
 public class Front_End extends AbstractTest {
 	WebDriver driver;
-	HomePage homePage;
-	RegisterPage registerPage;
-	LoginPage loginPage;
-	MyAccountPage myAccountPage;
-	MyDashboardPage myDashboardPage;
-	MobilePage mobilePage;
-	TVPage tvPage;
+	HomePageFrontEnd homePage;
+	RegisterPageFrontEnd registerPage;
+	LoginPageFrontEnd loginPage;
+	MyAccountPageFrontEnd myAccountPage;
+	MyDashboardPageFrontEnd myDashboardPage;
+	MobilePageFrontEnd mobilePage;
+	TVPageFrontEnd tvPage;
 	String firstName, middleName, lastName, email, password;
 	String mobileName,mobileNameCost;
 
@@ -414,6 +414,6 @@ public class Front_End extends AbstractTest {
 	}
 	@AfterClass
 	public void AfterClasss() {
-//		closeBrowserAndDriver();
+		closeBrowserAndDriver();
 	}
 }

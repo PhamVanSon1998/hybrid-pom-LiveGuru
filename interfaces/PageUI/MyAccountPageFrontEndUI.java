@@ -1,6 +1,6 @@
 package PageUI;
 
-public class MyAccountPageUI {
+public class MyAccountPageFrontEndUI {
 	public static final String ACCOUNT_INFORMATION = "//a[text()='Account Information']";
 	public static final String FIRSTNAME_TEXTBOX = "//input[@id='firstname']";
 	public static final String MIDDLENAME_TEXTBOX = "//input[@id='middlename']";

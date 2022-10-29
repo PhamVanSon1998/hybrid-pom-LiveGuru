@@ -1,6 +1,6 @@
 package PageUI;
 
-public class MobilePageUI {
+public class MobilePageFrontEndUI {
 	public static final String MOBILE_NAME_COST ="//a[text()='%s']/parent::h2[@class='product-name']/following-sibling::div//span[@class='price']";
 	public static final String MOBILE_NAME="//h2[@class='product-name']/a[text()='Sony Xperia']";
 	public static final String MOBILE_NAME_COST_DETAIL="//span[text()='%s']/parent::div[@class='product-name']/following-sibling::div[@class='price-info']//span[@class='price']";

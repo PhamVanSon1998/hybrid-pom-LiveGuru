@@ -1,6 +1,6 @@
 package PageUI;
 
-public class HomePageUI {
+public class HomePageFrontEndUI {
 	public static final String ACCOUNT_MENU = "//span[@class='label' and text()='Account']";
 	public static final String REGISTER_LINK = "//a[@title='Register']";
 	public static final String FIRSTNAME_TEXTBOX = "//input[@id='firstname']";

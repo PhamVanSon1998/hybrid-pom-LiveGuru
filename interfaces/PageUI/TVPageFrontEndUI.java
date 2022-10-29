@@ -1,6 +1,6 @@
 package PageUI;
 
-public class TVPageUI {
+public class TVPageFrontEndUI {
 	public static final String LG_LCD_NAME = "//h2[@class='product-name']/a[text()='LG LCD']";
 	public static final String ADD_TO_WISHLIST_TV_NAME = "//a[text()='LG LCD']/parent::h2/following-sibling::div[@class='actions']//a[text()='Add to Wishlist']";
 	public static final String MESSAGE_ADD_TO_WISHLIST_SUCCESS = "//li[@class='success-msg']//span";

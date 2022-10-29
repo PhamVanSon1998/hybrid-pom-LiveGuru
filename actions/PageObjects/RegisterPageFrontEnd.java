@@ -2,10 +2,10 @@ package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-public class RegisterPage {
+public class RegisterPageFrontEnd {
 	WebDriver driver;
 
-	public RegisterPage(WebDriver driver) {
+	public RegisterPageFrontEnd(WebDriver driver) {
 		this.driver = driver;
 	}
 

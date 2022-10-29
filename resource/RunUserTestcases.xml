@@ -12,7 +12,7 @@
 		<parameter name="browser" value="chrome_ui" />
 		<parameter name="url" value="http://live.techpanda.org/" />
 		<classes>
-			<class name="com.liveGuru.user.Front_End" />
+			<class name="com.liveGuru.user.Back_End" />
 		</classes>
 	</test>
 
