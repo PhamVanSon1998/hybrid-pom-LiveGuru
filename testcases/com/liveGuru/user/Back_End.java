@@ -77,6 +77,22 @@ public class Back_End extends AbstractTest{
 		
 		log.info("Create New Account in FrontEnd and Login in BackEnd Step 11: Click Login button");
 		homePageBackEnd.clickToLoginButton();
+		
+		log.info("Create New Account in FrontEnd and Login in BackEnd Step 11: Click close Popup");
+		homePageBackEnd.clickClosePopup();
+		
+		log.info("Create New Account in FrontEnd and Login in BackEnd Step 11: Verify Email registered in front-end displayed in Back-End");
+		verifyTrue(homePageBackEnd.isEmailDisplayedInBackEnd(email));
+		verifyTrue(homePageBackEnd.isEmailDisplayedInBackEnd(firstName + " " +middleName + " "+ lastName));
+		
+		log.info("Create New Account in FrontEnd and Login in BackEnd Step 11: Delete Account");
+		homePageBackEnd.checkToCheckboxwithEmailRegister(email);
+		homePageBackEnd.selectItemInActions("Delete");
+		homePageBackEnd.clickToSubmitButton();
+		homePageBackEnd.acceptAlert(driver);
+		
+		log.info("Create New Account in FrontEnd and Login in BackEnd Step 11: Verify Email registered in front-end undisplayed in Back-End");
+		verifyTrue(homePageBackEnd.isEmailUnDisplayedInBackEnd(email));
 	}
 	
 	

@@ -407,10 +407,24 @@ public class AbstractPage {
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
 		OverideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
 	}
-
+	
 	public boolean isElementUndisplayed(WebDriver driver, String locator) {
 		OverideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
 		elements = getElements(driver, locator);
+		OverideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
+		
+	}
+
+	public boolean isElementUndisplayed(WebDriver driver, String locator, String...values) {
+		OverideImplicitWait(driver, GlobalConstans.SHORT_TIMEOUT);
+		elements = getElements(driver, getDynamicLocator(locator, values));
 		OverideImplicitWait(driver, GlobalConstans.LONG_TIMEOUT);
 		if (elements.size() == 0) {
 			return true;

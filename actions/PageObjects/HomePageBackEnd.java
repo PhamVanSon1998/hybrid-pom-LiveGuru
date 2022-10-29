@@ -31,4 +31,33 @@ public class HomePageBackEnd extends AbstractPage{
 		clickToElement(driver, HomePageBackEndUI.LONGIN_BACKEND_BUTTON);
 	}
 
+	public void clickClosePopup() {
+		waitToElementClickable(driver, HomePageBackEndUI.CLOSE_POPUP);
+		clickToElement(driver, HomePageBackEndUI.CLOSE_POPUP);
+	}
+
+	public boolean isEmailDisplayedInBackEnd(String email) {
+		waitToElementVisible(driver, HomePageBackEndUI.EMAIL_IN_BACKEND,email);
+		return isElementDisplayed(driver, HomePageBackEndUI.EMAIL_IN_BACKEND,email);
+	}
+
+	public void checkToCheckboxwithEmailRegister(String email) {
+		waitToElementVisible(driver, HomePageBackEndUI.CHECKBOX_WITH_EMAIL,email);
+		checkToCheckBox(driver,  HomePageBackEndUI.CHECKBOX_WITH_EMAIL,email);
+	}
+
+	public void selectItemInActions(String actionsItem) {
+		waitToElementVisible(driver, HomePageBackEndUI.DELETE_DROPDOWN);
+		selectItemInDropdow(driver, HomePageBackEndUI.DELETE_DROPDOWN, actionsItem);
+	}
+
+	public void clickToSubmitButton() {
+		waitToElementClickable(driver, HomePageBackEndUI.SUBMIT_BUTTON);
+		clickToElement(driver, HomePageBackEndUI.SUBMIT_BUTTON);
+	}
+
+	public boolean isEmailUnDisplayedInBackEnd(String email) {
+		return isElementUndisplayed(driver, HomePageBackEndUI.EMAIL_IN_BACKEND,email);
+	}
+
 }
